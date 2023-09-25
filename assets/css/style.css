@@ -1958,7 +1958,6 @@ ul {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-
 .clients {
   background-color: #F8F5EC;
 }
@@ -1982,11 +1981,11 @@ ul {
   height: 12px;
   background-color: #F8F5EC;
   opacity: 1;
-  border: 1px solid #FE5900;
+  border: 1px solid #F99928;
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #FE5900;
+  background-color: #F99928;
 }
 
 /*--------------------------------------------------------------

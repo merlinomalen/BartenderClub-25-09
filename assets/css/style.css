@@ -1410,7 +1410,7 @@ ul {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  color: #012970;
+  color: #272727;
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
@@ -1959,25 +1959,25 @@ ul {
 # Clients
 --------------------------------------------------------------*/
 
-.clients {
+.clientes2 {
   background-color: #F8F5EC;
 }
 
-.clients .clients-slider .swiper-slide img {
+.clientes2 .clients-slider .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
 }
 
-.clients .clients-slider .swiper-slide img:hover {
+.clientes2 .clients-slider .swiper-slide img:hover {
   opacity: 1;
 }
 
-.clients .clients-slider .swiper-pagination {
+.clientes2 .clients-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
+.clientes2 .clients-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #F8F5EC;
@@ -1985,7 +1985,7 @@ ul {
   border: 1px solid #FE5900;
 }
 
-.clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+.clientes2 .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #FE5900;
 }
 

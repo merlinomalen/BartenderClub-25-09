@@ -1959,25 +1959,25 @@ ul {
 # Clients
 --------------------------------------------------------------*/
 
-.clientes2 {
+.clients {
   background-color: #F8F5EC;
 }
 
-.clientes2 .clients-slider .swiper-slide img {
+.clients .clients-slider .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
 }
 
-.clientes2 .clients-slider .swiper-slide img:hover {
+.clients .clients-slider .swiper-slide img:hover {
   opacity: 1;
 }
 
-.clientes2 .clients-slider .swiper-pagination {
+.clients .clients-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.clientes2 .clients-slider .swiper-pagination .swiper-pagination-bullet {
+.clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #F8F5EC;
@@ -1985,7 +1985,7 @@ ul {
   border: 1px solid #FE5900;
 }
 
-.clientes2 .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+.clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #FE5900;
 }
 

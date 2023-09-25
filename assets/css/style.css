@@ -1487,35 +1487,6 @@ ul {
 
 .features .
 
-.clientes2 {
-  background-color: #F4E8CE;
-}
-
-.clientes2 .clients-slider .swiper-slide img {
-  opacity:;
-  transition: 0.3s;
-}
-
-.clientes2 .clients-slider .swiper-slide img:hover {
-  opacity: 1;
-}
-
-.clientes2 .clients-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.clientes2 .clients-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #F8F5EC;
-  opacity: 1;
-  border: 1px solid #FE5900;
-}
-
-.clientes2 .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #FE5900;
-}
 
 /*--------------------------------------------------------------
 # Pricing2
@@ -1633,6 +1604,36 @@ ul {
   padding: 1px 0 3px 0;
   background: #0D4037;
   color: #fff;
+}
+
+.clients2 {
+  background-color: #F8F5EC;
+}
+
+.clients2 .clients-slider .swiper-slide img {
+  opacity:;
+  transition: 0.3s;
+}
+
+.clients2 .clients-slider .swiper-slide img:hover {
+  opacity: 1;
+}
+
+.clients2 .clients-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients2 .clients-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #F8F5EC;
+  opacity: 1;
+  border: 1px solid #FE5900;
+}
+
+.clients2 .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #FE5900;
 }
 
 .portfolio-details {

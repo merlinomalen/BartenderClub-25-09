@@ -1409,7 +1409,7 @@ ul {
 }
 
 @media (max-width: 768px) {
-  ..herodos {
+  .herodos {
     text-align: center;
   }
 
@@ -1425,6 +1425,63 @@ ul {
     width: 100%;
   }
 }
+
+@media (max-width: 390px) {
+  .herodos {
+    background: url(../img/fondo-detalle-mobile.png) top center no-repeat;
+    background-size: cover;
+  }
+
+  .herodos h1 {
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 5;
+    color: #272727;
+  }
+  
+  .herodos h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #272727;
+    margin: 15px 0 0 0;
+  }
+  
+  .herodos h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    color: #272727;
+    margin: 15px 0 0 0;
+    text-align: center;
+  }
+  
+  .herodos h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FE6A00;
+    margin: 15px 0 0 0;
+  }
+  
+  .herodos .btn-get-started {
+    margin-top: 20px;
+    line-height: 1;
+    padding: 15px 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+    color: #fff;
+    background: #FE6A00;
+  }
+  
+  .herodos .btn-get-started span {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+ }
 
 /*--------------------------------------------------------------
 # Values

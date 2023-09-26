@@ -77,6 +77,23 @@ section {
   }
 }
 
+@media (max-width: 390px) {
+  .section-header h2 {
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #2727271;
+    text-transform: uppercase;
+  }
+  
+  .section-header p {
+    font-size: 25px;
+    line-height: 32px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -138,10 +155,10 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #FE5900;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 20px;
   transition: all 0.4s;
 }
 
@@ -152,7 +169,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #FE5900
   color: #fff;
 }
 
@@ -365,7 +382,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -394,7 +411,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: #0D4037;
   transition: 0.3s;
 }
 
@@ -413,7 +430,7 @@ section {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #0D4037;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -422,13 +439,13 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #4154f1;
+  color: #FE5900;
 }
 
 .navbar-mobile .getstarted,
@@ -568,7 +585,48 @@ section {
   }
 }
 
-
+@media (max-width: 390px) {
+  .hero {
+    background: url(../img/fondo-mobile-1.png) top center no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: top ;
+  }
+  
+  .hero h1 {
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 5;
+    color: #ffffff;
+  }
+  
+  .hero h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 15px 0 0 0;
+    text-align: center;
+  }
+  
+  .hero .btn-get-started {
+    margin-top: 20px;
+    line-height: 1;
+    padding: 15px 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+    color: #fff;
+    background: #FE6A00;
+  }
+  
+  .hero .btn-get-started span {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Index Page
@@ -587,7 +645,7 @@ section {
 
 .about h3 {
   font-family: "DM Sans", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: #272727;
   text-transform: uppercase;
@@ -651,6 +709,29 @@ ul {
   transform: translateX(5px);
 }
 
+@media (max-width: 390px) {
+  .about h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #272727;
+    text-transform: uppercase;
+  }
+  
+  .about h2 {
+    font-family: "Yeseva One", serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #D90001;
+  }
+  
+  .about p {
+    font-family: "DM Sans", sans-serif;
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+    color: #272727;
+  }
+}
 
 /*--------------------------------------------------------------
 # Values
@@ -1002,6 +1083,20 @@ ul {
   padding: 1px 0 3px 0;
   background: #0D4037;
   color: #fff;
+}
+
+@media (max-width: 390px) {
+  .pricing .section-header h2 {
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+  }
+  
+  .pricing .section-header p {
+    font-size: 25px;
+    font-family: "Yeseva One", serif;
+    color: #ffffff;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1938,6 +2033,13 @@ ul {
   color: #0D4037;
 }
 
+@media (max-width: 390px) {
+  .recent-blog-posts {
+    background-image: url(../img/fondo-recetas-mobile.png) ;
+    background-size: cover;
+  }
+}
+
 /*--------------------------------------------------------------
 # Nueva
 --------------------------------------------------------------*/
@@ -1980,8 +2082,34 @@ section#nueva p {
   line-height: 0;
   padding: 15px 0px 50px 0px;
   transition: 0.5s;
-  color: #FE5900;}      
+  color: #FE5900;
+}  
 
+
+@media (max-width: 390px) {
+  .nueva .content {
+    padding: 0px
+  }
+  
+  .nueva {
+    background-image: url(../img/fondo-detrás-de-cada-box-mobile.png);
+    background-size: cover;
+  }
+  
+  .nueva h2 {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: px;
+  }
+  
+  .nueva p {
+    font-family: "DM Sans", sans-serif
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -2115,6 +2243,8 @@ section#nueva p {
     transform: rotate(360deg);
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Blog
